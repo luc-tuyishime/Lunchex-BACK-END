@@ -1,0 +1,30 @@
+{
+  "name": "merng",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index",
+    "server": "index",
+    "dev": "NODE_ENV=development nodemon --exec npm-run-all server"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.7",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
+    "morgan": "~1.9.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.4"
+  }
+}
