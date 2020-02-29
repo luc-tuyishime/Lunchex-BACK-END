@@ -7,6 +7,8 @@ const typeDefs = require('./graphql/typeDefs');
 
 // const app = express();
 
+const PORT = process.env.port || 5000
+
 const app = new ApolloServer({
   typeDefs,
   resolvers,
@@ -18,7 +20,7 @@ const run = async () => {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
-  app.listen({ port: 5000 });
+  app.listen({ port: PORT });
 
   await console.log(`server running....`);
 };
