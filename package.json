@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon index",
+    "start": "node index",
     "server": "index",
     "dev": "NODE_ENV=development nodemon --exec npm-run-all server"
   },
