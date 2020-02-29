@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node index",
-    "server": "index",
+    "server": "node index",
     "dev": "NODE_ENV=development nodemon --exec npm-run-all server"
   },
   "dependencies": {
